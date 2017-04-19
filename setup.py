@@ -7,26 +7,21 @@
 #    Sample: https://github.com/pypa/sampleproject/blob/master/setup.py
 
 """
-fnexchange-sample-plugin
-========================
-(replace this with your plugin name)
-
 Overview
---------
+========
 fnexchange-sample-plugin is a plugin for the fnExchange API router service.
 
 This plugin provides interfaces to do X, Y, Z.
 
-More details about this plugin can be found at the plugin's
-`GitHub page <http://github.com/dnif/fnExchange-sample-plugin>`_
+More details about this plugin can be found `here <http://github.com/dnif/fnExchange-sample-plugin>`_
 
 More Information
-----------------
+================
 fnExchange installation and usage instructions can be found on the project's
 `GitHub page <http://github.com/dnif/fnExchange>`_
 
 fnExchange sample plugin project and development instructions can be found at
-`GitHub page <http://github.com/dnif/fnExchange-sample-plugin>`_
+`fnExchange-sample-plugin github <http://github.com/dnif/fnExchange-sample-plugin>`_
 """
 
 from setuptools import setup, find_packages
@@ -37,7 +32,7 @@ setup(
     version='0.1.0',
 
     # URL to your repo (if open source)
-    url='REPO_URL',
+    # url='REPO_URL',
 
     license='Apache',
 
