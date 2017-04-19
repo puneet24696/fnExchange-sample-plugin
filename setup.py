@@ -12,6 +12,7 @@ Overview
 fnexchange-sample-plugin is a plugin for the fnExchange API router service.
 
 This plugin provides interfaces to do X, Y, Z.
+The Greetings plugin provides greeting strings given user names and their locales.
 
 More details about this plugin can be found `here <http://github.com/dnif/fnExchange-sample-plugin>`_
 
@@ -41,7 +42,7 @@ setup(
 
     # your email here
     author_email='bhumilharia@gmail.com',
-    description='fnExchange plugin for doing X',
+    description='A sample fnExchange plugin',
     long_description=__doc__,
     keywords='fnexchange plugin',
 
