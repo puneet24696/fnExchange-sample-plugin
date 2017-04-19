@@ -7,17 +7,18 @@
 #    Sample: https://github.com/pypa/sampleproject/blob/master/setup.py
 
 """
-FNEXCHANGE_PLUGIN_NAME
-======================
+fnexchange-sample-plugin
+========================
+(replace this with your plugin name)
 
 Overview
 --------
-FNEXCHANGE_PLUGIN_NAME is a plugin for the fnExchange API router service.
+fnexchange-sample-plugin is a plugin for the fnExchange API router service.
 
 This plugin provides interfaces to do X, Y, Z.
 
 More details about this plugin can be found at the plugin's
-`GitHub page <REPO_URL>`_
+`GitHub page <http://github.com/dnif/fnExchange-sample-plugin>`_
 
 More Information
 ----------------
@@ -31,16 +32,25 @@ fnExchange sample plugin project and development instructions can be found at
 from setuptools import setup, find_packages
 
 setup(
-    name='FNEXCHANGE_PLUGIN_NAME',
+    # name of package on PyPi
+    name='fnexchange-sample-plugin',
     version='0.1.0',
+
+    # URL to your repo (if open source)
     url='REPO_URL',
 
     license='Apache',
-    author='Your Name',
-    author_email='email@example.com',
+
+    # your name
+    author='Bhumil Haria',
+
+    # your email here
+    author_email='bhumilharia@gmail.com',
     description='fnExchange plugin for doing X',
     long_description=__doc__,
     keywords='fnexchange plugin',
+
+    # if cross-platform
     platforms='any',
 
     # add your dependencies here
