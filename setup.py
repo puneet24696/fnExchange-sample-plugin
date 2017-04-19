@@ -45,6 +45,7 @@ setup(
 
     # add your dependencies here
     install_requires=[
+        'fnexchange',
         'six==1.10.0',
         'tornado==4.4.2',
     ],
