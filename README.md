@@ -161,6 +161,19 @@ custom use), you can still use the same format unless you require something spec
 tailored for your needs. Using a standard format helps interop and allows you to directly
 use any plugins developed for DNIF out of the box. 
 
+## Example of Request payload
+```json
+{
+    "alias":"greetings",
+    "token" : "SECURE-TOKEN-1-HERE" ,
+    "action" : "say_hello" ,
+    "payload":
+    {
+        "elements": [{"name" : "Emma", "locale" : "us-en"}],
+        "metadata":{}
+    }
+}
+```
 
 ## Show me the code!
 Alright, let's get to the actual plugin development. fnExchange plugins are simply normal
