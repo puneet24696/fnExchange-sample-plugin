@@ -56,7 +56,7 @@ setup(
         'tornado==4.4.2',
     ],
 
-    packages=find_packages(exclude=['tests']),
+    py_modules=['greetings'],
     include_package_data=True,
     zip_safe=False,
 
