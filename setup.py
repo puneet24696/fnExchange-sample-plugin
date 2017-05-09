@@ -30,7 +30,7 @@ from setuptools import setup, find_packages
 setup(
     # name of package on PyPi
     name='fnexchange-sample-plugin',
-    version='1.0.0',
+    version='1.0.1',
 
     # URL to your repo (if open source)
     # url='REPO_URL',
@@ -56,7 +56,7 @@ setup(
         'tornado==4.4.2',
     ],
 
-    packages=find_packages(exclude=['tests']),
+    py_modules=['greetings'],
     include_package_data=True,
     zip_safe=False,
 
