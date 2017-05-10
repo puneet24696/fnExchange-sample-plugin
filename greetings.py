@@ -48,7 +48,7 @@ class GreetingsPlugin(AbstractPlugin):
         return self.__greet(self.hello_map, element)
 
     def __bye(self, element):
-        return self.__greet(self.hello_map, element)
+        return self.__greet(self.bye_map, element)
 
     def say_hello(self, payload):
         return {"metadata": {}, "elements": map(self.__hello, payload["elements"])}
